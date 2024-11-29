@@ -1,5 +1,5 @@
 29-11-24 
-Concepts : 
+Concepts:  
 Usage of Atoms , selectors.
 Synchronous state management using useRecoilState ,  useRecoilValue. 
   
