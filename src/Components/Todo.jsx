@@ -133,10 +133,8 @@ const TodoItemCreator = ( ) =>   {
                }  
         ]); 
         setInputValue('') ; 
-    }
-    function  removeItemAtIndex(arr,index ) { 
-        return [...arr.slice(0,index ) , arr.slice(index+1) ]  ;  
-    } ; 
+    }  
+  
     const onChange = (  
         { target: {value }  } )  => { 
              setInputValue(value) ;  }  
@@ -169,11 +167,6 @@ function TodoListFilters() {
         </>
     ) 
  }     
- 
- 
-
-  
- 
 
 const TodoListStats =  () => { 
       
@@ -188,5 +181,4 @@ const TodoListStats =  () => {
     )
 }
  
-export default Todo       
-
+export default Todo         
